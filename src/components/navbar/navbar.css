@@ -1,0 +1,170 @@
+.navbar{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 20px 80px;
+
+ 
+
+        ul{
+            display: flex;
+            gap: 60px;
+            align-items: center;
+
+            .close{
+                display: none;
+            }
+            li{
+                list-style-type: none;
+                font-size: 20px;
+                display: flex;
+                flex-direction: column;
+                cursor: pointer;
+
+                
+                
+            }
+
+            img{
+                margin: auto  ;
+            }
+            .anchor{
+    text-decoration: none;
+    color: white;
+}
+
+        }
+.nav-con{
+    padding: 20px 40px;
+    border-radius: 50px;
+    -webkit-border-radius: 50px;
+    -moz-border-radius: 50px;
+    -ms-border-radius: 50px;
+    -o-border-radius: 50px;
+    background: linear-gradient(267deg , #Da7c25 .36% , #B923e1 102.06%);
+    font-size: 22px;
+    cursor: pointer;
+    transition: .5s ;
+    -webkit-transition: .5s ;
+    -moz-transition: .5s ;
+    -ms-transition: .5s ;
+    -o-transition: .5s ;
+
+    .anchor{
+        text-decoration: none;
+        color: white;
+    }
+
+      
+
+    &:hover{
+        transform: scale(1.05);
+        -webkit-transform: scale(1.05);
+        -moz-transform: scale(1.05);
+        -ms-transform: scale(1.05);
+        -o-transform: scale(1.05);
+}
+}
+        
+        
+
+
+    }
+
+
+.open{
+    display: none;
+}
+
+
+@media (max-width :768px){
+
+        .navbar{
+            display: flex;
+            justify-content: space-between;
+            margin: 20px 20px;
+
+        .open{
+                display: block;
+            }
+
+        ul{
+                display: flex;
+                flex-direction: column;
+                align-items: start;
+                gap: 50px;
+                background-color: rgba(31, 0, 22, 0.96);
+                width: 300px;
+                height: 100%;
+                z-index: 5;
+                transition: right .5s;
+                -webkit-transition: right .5s;
+                -moz-transition: right .5s;
+                -ms-transition: right .5s;
+                -o-transition: right .5s;
+                position: fixed;
+                right: -350px;
+                bottom: 0;
+
+
+
+
+        li{
+                    font-size: 30px;
+                    padding-left: 100px;
+                    flex-direction: row;
+                    gap: 20px;
+
+                  
+                    
+             
+
+                }
+                .first-one{
+                    margin-top: 50px;
+                }
+
+        .close{
+                    display: block;
+                    position: fixed;
+                    top: 30px;
+                    width: 30px;
+
+                }
+            }
+        .nav-con{
+               display: none;
+            }
+
+        }
+
+    }
+
+
+@media (min-width: 768px) and (max-width: 1024px) {
+        .navbar {
+            margin: 20px 30px;
+
+            img{
+                margin-right: 30px;
+            }
+
+            ul{
+                gap: 15px;
+                
+
+                li{
+                    font-size: 20px;
+                }
+
+              
+             
+            }
+
+            .nav-con{
+                padding: 10px 20px;
+                font-size: 18px;
+            }
+        }
+
+    }
