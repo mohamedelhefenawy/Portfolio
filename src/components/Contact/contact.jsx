@@ -160,7 +160,7 @@ const Contact = () => {
           </div>
           <div className="feature">
             <img src={location} alt="Location" />
-            <p>Dessouk, Egypt</p>
+            <p>Cairo, Egypt</p>
           </div>
         </div>
 
