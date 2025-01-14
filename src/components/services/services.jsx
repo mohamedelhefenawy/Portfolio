@@ -21,10 +21,10 @@ const Services = ()=>{
             <h3>{service.s_name}</h3>
             <p>{service.s_desc}</p>
 
-            <div className='read-more'>
+            {/* <div className='read-more'>
                 <h5>{'Read More'}</h5>
                 <img src={arrow} alt="arrow" />
-            </div>
+            </div> */}
         </div>
     ))}
 </div>
