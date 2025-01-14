@@ -16,8 +16,11 @@ const Work = ()=>{
             </div>
             <div className='work-container'>
             {Works.map((work , index)=>(
+                <a href={work.link} key={index} target ='_blank' >
+                     <img  src={work.w_img} alt=""  />
+                </a>
                 
-                <img key = {index} src={work.w_img} alt="" />
+               
                     
                 
             ))}
