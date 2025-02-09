@@ -15,7 +15,7 @@ const Hero = ()=>{
                     Connect with me </AnchorLink>
                 </div>
                 <div className='resume'>
-                    <a className='anchor' href='https://mohamedelhefenawy.github.io/CV/' target="_blank" rel="noopener noreferrer" >
+                    <a className='anchor' href='https://drive.google.com/file/d/14Ey5fy7Yq7V15j65qkX8NCuIjQRDOLK3/view?usp=drive_link' target="_blank" rel="noopener noreferrer" >
                          My Resume
                      </a>
                 </div>
