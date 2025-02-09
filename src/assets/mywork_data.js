@@ -2,7 +2,7 @@ import project1_img from '../assets/E-commerce_react.png'
 import project2_img from '../assets/Events.png'
 import project3_img from '../assets/E-commerce java.png'
 import project4_img from '../assets/Crud.png'
-import project5_img from '../assets/src/assets/Screenshot 2025-02-09 112227.png'
+import project5_img from '../assets/social.png'
 
 const mywork_data = [
     {
