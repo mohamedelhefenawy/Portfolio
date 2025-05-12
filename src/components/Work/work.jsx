@@ -1,5 +1,4 @@
 import './work.css'
-import React from 'react'
 import theme from '../../assets/theme_pattern.svg'
 import Works from '../../assets/mywork_data'
 import arrow from '../../assets/arrow_icon.svg'
@@ -25,10 +24,10 @@ const Work = ()=>{
                 
             ))}
             </div>
-            <div className='show'>
+            {/* <div className='show'>
                 <p>Show More</p>
                 <img src={arrow} alt="" />
-            </div>
+            </div> */}
         </div>
     )
 }
